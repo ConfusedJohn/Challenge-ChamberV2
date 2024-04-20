@@ -92,7 +92,14 @@ public class GameManager : MonoBehaviour
         }
         foreach(GameObject go in GameObject.FindGameObjectsWithTag("GetTriggeredWall"))
         {
-            go.GetComponent<MeshRenderer>().enabled = true;
+            go.GetComponent<HitBoxManager>().danger = false;
+
+            if (go.GetComponent<MeshRenderer>() != null)
+            {
+                go.GetComponent<MeshRenderer>().enabled = true;
+            }
+            
+
             go.GetComponent<HitBoxManager>().danger = false;
         }
         foreach (GameObject go in GameObject.FindGameObjectsWithTag("movingObject"))
@@ -157,6 +164,10 @@ public class GameManager : MonoBehaviour
 
         List<bool> trapsActivation = new List<bool>();
         foreach (GameObject go in GameObject.FindGameObjectsWithTag("GetTriggeredDanger"))
+        {
+            trapsActivation.Add(go.GetComponent<HitBoxManager>().danger);
+        }
+        foreach (GameObject go in GameObject.FindGameObjectsWithTag("GetTriggeredWall"))
         {
             trapsActivation.Add(go.GetComponent<HitBoxManager>().danger);
         }

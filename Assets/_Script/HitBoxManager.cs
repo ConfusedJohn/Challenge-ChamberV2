@@ -66,9 +66,10 @@ public class HitBoxManager : MonoBehaviour
                 //Debug.Log("set active");
                 //col.gameObject.GetComponent<MeshRenderer>().enabled = false;
                 //col.gameObject.SetActive(false);
-                movingObject.gameObject.GetComponent<MeshRenderer>().enabled = false;
+                //movingObject.gameObject.GetComponent<MeshRenderer>().enabled = false;
                 buildingSystemAudioFeedback.PlaySFX(activateSFX);
-                StartCoroutine(TriggerWall());
+                danger = true;
+                //StartCoroutine(TriggerWall());
             }
         }
 

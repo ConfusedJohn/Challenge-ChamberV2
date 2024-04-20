@@ -1529,8 +1529,8 @@ MonoBehaviour:
   incorrectHit: 0
   active: 0
   danger: 0
-  activator: {fileID: 8635504732640565546}
-  movingObject: {fileID: 8635504732640565546}
+  activator: {fileID: 7935667740392129938}
+  movingObject: {fileID: 7935667740392129938}
   activateSFX: {fileID: 8300000, guid: 163edca2652f51349adc6f71a5b102a1, type: 3}
 --- !u!65 &9108035724861516752
 BoxCollider:

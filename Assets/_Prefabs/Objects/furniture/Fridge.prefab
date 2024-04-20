@@ -44,9 +44,9 @@ GameObject:
   - component: {fileID: 1949557929458943170}
   - component: {fileID: 2136879455538912036}
   - component: {fileID: 6996957992399809677}
-  - component: {fileID: 4590740087480454813}
   - component: {fileID: 6594011369191198489}
   - component: {fileID: 8245726193414318885}
+  - component: {fileID: 5945103848167840449}
   m_Layer: 0
   m_Name: frigde
   m_TagString: GetTriggeredWall
@@ -224,37 +224,16 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6520712171943810118, guid: 8e18acdaae2c241439414f620404aacb,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4590740087480454813}
-    - targetCorrespondingSourceObject: {fileID: 6520712171943810118, guid: 8e18acdaae2c241439414f620404aacb,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 6594011369191198489}
     - targetCorrespondingSourceObject: {fileID: 6520712171943810118, guid: 8e18acdaae2c241439414f620404aacb,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8245726193414318885}
+    - targetCorrespondingSourceObject: {fileID: 6520712171943810118, guid: 8e18acdaae2c241439414f620404aacb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5945103848167840449}
   m_SourcePrefab: {fileID: 100100000, guid: 8e18acdaae2c241439414f620404aacb, type: 3}
---- !u!65 &4590740087480454813
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5303916188866624416}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.8742274, y: 5.4149323, z: 1.9350499}
-  m_Center: {x: 0.05143933, y: -1.5903327, z: 0.03250733}
 --- !u!54 &6594011369191198489
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -301,3 +280,24 @@ MonoBehaviour:
   activator: {fileID: 5303916188866624416}
   movingObject: {fileID: 5303916188866624416}
   activateSFX: {fileID: 8300000, guid: 163edca2652f51349adc6f71a5b102a1, type: 3}
+--- !u!65 &5945103848167840449
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303916188866624416}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3666482, y: 5.4149323, z: 2.2678804}
+  m_Center: {x: 0.12695092, y: -1.5903325, z: 0.020549297}
