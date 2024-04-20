@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b84be0e6d67eb84b837237865aeecbd, type: 3}
+  m_Name: StructuresData
+  m_EditorClassIdentifier: 
+  structures:
+  - name: Canon
+    ID: 0
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 9003196385058887777, guid: a47f41ed216ca9948be621ea10898954,
+      type: 3}
+    previewObject: {fileID: 9003196385058887777, guid: 77375fb5809b6624fa837ae4882110ee,
+      type: 3}
+    isMapObject: 0
+  - name: Teapot
+    ID: 1
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 1118488233811456610, guid: 40b12a8c89f3cc646b2254dd417e8fc5,
+      type: 3}
+    previewObject: {fileID: 1118488233811456610, guid: 297d5d592ec292243853e722c8a10fc1,
+      type: 3}
+    isMapObject: 0
+  - name: BoxGlove
+    ID: 2
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 4126928942292202502, guid: ecef717e869c1eb4cb0fa40119a0fd85,
+      type: 3}
+    previewObject: {fileID: 4126928942292202502, guid: de645467b90a61c4981176cb86f3d4fc,
+      type: 3}
+    isMapObject: 0
+  - name: Turtle
+    ID: 3
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 7767220993621393714, guid: 4475492bc29176545adde081878ff912,
+      type: 3}
+    previewObject: {fileID: 7767220993621393714, guid: a81f47795ba36574ab85fb1c9cf2cdcc,
+      type: 3}
+    isMapObject: 0
+  - name: WaterTomato
+    ID: 4
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 3106811628150759246, guid: e0c43684816c28a48952ff0fa32b153d,
+      type: 3}
+    previewObject: {fileID: 3106811628150759246, guid: e6d560b6fdc47454db51f8e721a58da6,
+      type: 3}
+    isMapObject: 0
+  - name: ShipBlow
+    ID: 5
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 7530626347446807355, guid: c0aadd37b3d26e6408915ab50a85f305,
+      type: 3}
+    previewObject: {fileID: 7530626347446807355, guid: 6f438d71e1e83fd49bdd920b1576a81e,
+      type: 3}
+    isMapObject: 0
+  - name: SlingBall
+    ID: 6
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 4539462057062511669, guid: 360fadab9c7e3fb4ba7720149009c17f,
+      type: 3}
+    previewObject: {fileID: 4539462057062511669, guid: e64ada6534d89af4e9f8511e609e7eb4,
+      type: 3}
+    isMapObject: 0
+  - name: Anvil
+    ID: 7
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 3738301865619134192, guid: 0eb857a98bfef0449aef345d0d56312c,
+      type: 3}
+    previewObject: {fileID: 3738301865619134192, guid: f5f8f9ad2ca066a418164a92d85fe96f,
+      type: 3}
+    isMapObject: 0
+  - name: Tv
+    ID: 8
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 1382649619734688009, guid: 932d9d4dc90d8104d8f97e881374c4a9,
+      type: 3}
+    previewObject: {fileID: 1382649619734688009, guid: 4b65da4d5481c7948b92c3967acc823c,
+      type: 3}
+    isMapObject: 0
+  - name: RollerSkatesRamp
+    ID: 9
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 8996615417283557805, guid: 831c4108a7908e54eadaa2f755182bff,
+      type: 3}
+    previewObject: {fileID: 8996615417283557805, guid: 7489b0dbace07c247aa3710811a778c9,
+      type: 3}
+    isMapObject: 0
+  - name: Magnets
+    ID: 10
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 6196577297396324310, guid: 72c9ff1a50fa3b949854ef70ae5bc89d,
+      type: 3}
+    previewObject: {fileID: 6196577297396324310, guid: 23d376989d2865946bb9ac88c2235f32,
+      type: 3}
+    isMapObject: 0
+  - name: TablePool
+    ID: 11
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 4005562564465932116, guid: d0ce259b0b108924d91fb35c177561f8,
+      type: 3}
+    previewObject: {fileID: 4005562564465932116, guid: 8335bcf4e8d318040b54c343248a711b,
+      type: 3}
+    isMapObject: 0
+  - name: RollerSkatesRocket
+    ID: 12
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 5960198069375574384, guid: 1b2345393a94dac409b6c3ad57bd6497,
+      type: 3}
+    previewObject: {fileID: 5960198069375574384, guid: 7cf4dd18e3c448c40882a70e85327136,
+      type: 3}
+    isMapObject: 0
+  - name: FireEx
+    ID: 13
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 1258203798396362688, guid: 7af0151a9cdc7c543b2102bb31a87a1f,
+      type: 3}
+    previewObject: {fileID: 1258203798396362688, guid: 6e9bfdd24d9003f4291ee8a4485dae74,
+      type: 3}
+    isMapObject: 0
+  - name: Hampter
+    ID: 14
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 6624850627242282228, guid: 166d3e60f86a1544d944424d0ecbb7b2,
+      type: 3}
+    previewObject: {fileID: 6624850627242282228, guid: 031aed50393958442835ea3fe7d85694,
+      type: 3}
+    isMapObject: 0
+  - name: Train
+    ID: 15
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 1355271549876598140, guid: 1628cb569a88de848912a6ba03cbf69d,
+      type: 3}
+    previewObject: {fileID: 1355271549876598140, guid: a3427f5858cf4d548847da52f7ce0f83,
+      type: 3}
+    isMapObject: 0
+  - name: Boot
+    ID: 16
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 5653375117914726170, guid: cde67e55207b91f44a4368e933316f5c,
+      type: 3}
+    previewObject: {fileID: 5653375117914726170, guid: e2633c2b536727445b629cf2c6712724,
+      type: 3}
+    isMapObject: 0
+  - name: RollerPin
+    ID: 17
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 4282519511787855869, guid: bb063bfb2df3fd94c8f06dde31deac94,
+      type: 3}
+    previewObject: {fileID: 4282519511787855869, guid: 269fd8ec8a62b314c8dc612c33b9334d,
+      type: 3}
+    isMapObject: 0
+  - name: Fan
+    ID: 18
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 8852150855408128820, guid: de19145dbca528242955d1108df33c83,
+      type: 3}
+    previewObject: {fileID: 8852150855408128820, guid: 3cd562608d352cf4cbbe09a9555913c8,
+      type: 3}
+    isMapObject: 0
+  - name: Helicopter
+    ID: 19
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 5709975898368874815, guid: ef2e6bca3d7854143b46455fbeaf346c,
+      type: 3}
+    previewObject: {fileID: 5709975898368874815, guid: 208d3726c4fe94945a8c4f69f55074a8,
+      type: 3}
+    isMapObject: 0
+  - name: Toaster
+    ID: 20
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 8006318497467032275, guid: 794afe5e5bb18874e8512f239d3e1b90,
+      type: 3}
+    previewObject: {fileID: 8006318497467032275, guid: b8901c63002a19143a903a21d4eeeeee,
+      type: 3}
+    isMapObject: 0
+  - name: Catapult
+    ID: 21
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 7190331103100554034, guid: 3654c4861ad7729438c95d52ee34e403,
+      type: 3}
+    previewObject: {fileID: 7190331103100554034, guid: 3bacd2b3cbf4ea949b87913f92fbb30d,
+      type: 3}
+    isMapObject: 0
+  - name: TeethBox
+    ID: 22
+    size: {x: 1, y: 1}
+    objectPlacementType: 5
+    prefab: {fileID: 4587260420941265333, guid: 508d02f7a6ad0b94e837eaa6c429e927,
+      type: 3}
+    previewObject: {fileID: 4587260420941265333, guid: 7dbb84e194ba25f40b905cabb859d294,
+      type: 3}
+    isMapObject: 0
+  - name: Table1
+    ID: 23
+    size: {x: 4, y: 2}
+    objectPlacementType: 5
+    prefab: {fileID: 2138194487239794978, guid: 4517874352733254798f6a479d66aae3,
+      type: 3}
+    previewObject: {fileID: 2138194487239794978, guid: 4517874352733254798f6a479d66aae3,
+      type: 3}
+    isMapObject: 1
+  - name: Table2
+    ID: 24
+    size: {x: 4, y: 4}
+    objectPlacementType: 5
+    prefab: {fileID: 5546609467506201645, guid: 1788f44005db39e4aa928383ff9007c7,
+      type: 3}
+    previewObject: {fileID: 5546609467506201645, guid: 1788f44005db39e4aa928383ff9007c7,
+      type: 3}
+    isMapObject: 1
+  - name: Chair
+    ID: 25
+    size: {x: 2, y: 2}
+    objectPlacementType: 5
+    prefab: {fileID: 1514384320926026084, guid: fb6dbb212f5dbb4499c1a40e9d40bdfe,
+      type: 3}
+    previewObject: {fileID: 1514384320926026084, guid: fb6dbb212f5dbb4499c1a40e9d40bdfe,
+      type: 3}
+    isMapObject: 1
+  - name: Stool
+    ID: 26
+    size: {x: 2, y: 2}
+    objectPlacementType: 5
+    prefab: {fileID: 9093570517543698305, guid: bc04e2292f77d2749810c1817bff61ea,
+      type: 3}
+    previewObject: {fileID: 9093570517543698305, guid: bc04e2292f77d2749810c1817bff61ea,
+      type: 3}
+    isMapObject: 1
+  - name: Nightstand
+    ID: 27
+    size: {x: 2, y: 2}
+    objectPlacementType: 5
+    prefab: {fileID: 4733297380928336917, guid: 856a9e34958bae547921b20b0bb45e9b,
+      type: 3}
+    previewObject: {fileID: 4733297380928336917, guid: 856a9e34958bae547921b20b0bb45e9b,
+      type: 3}
+    isMapObject: 1
+  - name: Fridge
+    ID: 28
+    size: {x: 2, y: 2}
+    objectPlacementType: 5
+    prefab: {fileID: 1234354867507873393, guid: 21d5e7f8d1825b04aa3c411f40a8f90e,
+      type: 3}
+    previewObject: {fileID: 1234354867507873393, guid: 21d5e7f8d1825b04aa3c411f40a8f90e,
+      type: 3}
+    isMapObject: 1
+  - name: Couch
+    ID: 29
+    size: {x: 5, y: 3}
+    objectPlacementType: 5
+    prefab: {fileID: 5992543983183362471, guid: aadbe8ef33544fb4d873ff42b5e99bc1,
+      type: 3}
+    previewObject: {fileID: 5992543983183362471, guid: aadbe8ef33544fb4d873ff42b5e99bc1,
+      type: 3}
+    isMapObject: 1
+  - name: Sofa
+    ID: 30
+    size: {x: 3, y: 3}
+    objectPlacementType: 5
+    prefab: {fileID: 4221380575409988876, guid: 17b1ae0332996a04e9299f945921880e,
+      type: 3}
+    previewObject: {fileID: 4221380575409988876, guid: 17b1ae0332996a04e9299f945921880e,
+      type: 3}
+    isMapObject: 1
+  - name: SquareChest
+    ID: 31
+    size: {x: 2, y: 2}
+    objectPlacementType: 5
+    prefab: {fileID: 4554275800903378220, guid: 65273a5b3979f3246854b0876d2da270,
+      type: 3}
+    previewObject: {fileID: 4554275800903378220, guid: 65273a5b3979f3246854b0876d2da270,
+      type: 3}
+    isMapObject: 1
+  - name: BookShelf
+    ID: 32
+    size: {x: 2, y: 2}
+    objectPlacementType: 5
+    prefab: {fileID: 4198540659396644240, guid: 1157b7f7510f7184aafed9fa6319aa79,
+      type: 3}
+    previewObject: {fileID: 4198540659396644240, guid: 1157b7f7510f7184aafed9fa6319aa79,
+      type: 3}
+    isMapObject: 1
+  - name: GrandClock
+    ID: 33
+    size: {x: 2, y: 2}
+    objectPlacementType: 5
+    prefab: {fileID: 1007211819512404832, guid: 05bf461142f752847b390aef40ef1fb4,
+      type: 3}
+    previewObject: {fileID: 1007211819512404832, guid: 05bf461142f752847b390aef40ef1fb4,
+      type: 3}
+    isMapObject: 1
+  - name: Dog
+    ID: 34
+    size: {x: 2, y: 4}
+    objectPlacementType: 5
+    prefab: {fileID: 5631089906412227942, guid: 840ad34d838f26d41addfcc63d39800b,
+      type: 3}
+    previewObject: {fileID: 5631089906412227942, guid: 840ad34d838f26d41addfcc63d39800b,
+      type: 3}
+    isMapObject: 1
