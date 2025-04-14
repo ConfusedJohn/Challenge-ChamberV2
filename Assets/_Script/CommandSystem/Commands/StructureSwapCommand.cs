@@ -29,7 +29,11 @@ public class StructureSwapCommand : ICommand
 
     public bool CanExecute()
     {
-        return selectionResult.placementValidity;
+        if (itemData != null && itemData.allowedNumber > 0)
+        {
+            return selectionResult.placementValidity;
+        }
+        else return false;
     }
 
     public void Execute()
@@ -66,15 +70,23 @@ public class StructureSwapCommand : ICommand
 
         //Removes walls (using the previousPlacementData) and places the InWall objects in the placementData
         //We keep this data separate to ensure that we can't again place an inwall object on top of another inwall object
+        
         placementManager.RemoveStructureAt(previousStructuresResult, this.previousPlacementData);
         placementManager.PlaceStructureAt(selectionResult, placementData, this.itemData);
+        itemData.allowedNumber -= 1;
+        previousItemData.allowedNumber += 1;
 
     }
 
     public void Undo()
     {
         //Reverse operation of placing wall and removing the inwall object
-        placementManager.RemoveStructureAt(selectionResult, placementData);
-        placementManager.PlaceStructureAt(previousStructuresResult, previousPlacementData, this.previousItemData);
+        if (previousItemData != null && previousItemData.allowedNumber > 0 && itemData !=null )
+        {
+            itemData.allowedNumber -= 1;
+            placementManager.RemoveStructureAt(selectionResult, placementData);
+            previousItemData.allowedNumber += 1;
+            placementManager.PlaceStructureAt(previousStructuresResult, previousPlacementData, this.previousItemData);
+        }
     }
 }

@@ -57,6 +57,29 @@ public class PlacementManager : MonoBehaviour
         switch (SceneManager.GetActiveScene().name)
         {
             case "Level1":
+                structuresData.GetItemWithID(0).allowedNumber = 1;//canon
+                structuresData.GetItemWithID(1).allowedNumber = 2;//teapot
+                structuresData.GetItemWithID(2).allowedNumber = 2;//box glove
+                structuresData.GetItemWithID(3).allowedNumber = 1;//turtle
+                structuresData.GetItemWithID(4).allowedNumber = 1;//water
+                structuresData.GetItemWithID(5).allowedNumber = 2;//ship
+                structuresData.GetItemWithID(6).allowedNumber = 2;//slingshot
+                structuresData.GetItemWithID(7).allowedNumber = 0;//anvil
+                structuresData.GetItemWithID(8).allowedNumber = 0;//tv
+                structuresData.GetItemWithID(9).allowedNumber = 0;//roller skate park
+                structuresData.GetItemWithID(10).allowedNumber = 0;//magnet
+                structuresData.GetItemWithID(11).allowedNumber = 0;//table pool
+                structuresData.GetItemWithID(12).allowedNumber = 0;//roller skate
+                structuresData.GetItemWithID(13).allowedNumber = 0;//fire exti
+                structuresData.GetItemWithID(14).allowedNumber = 0;//hampter
+                structuresData.GetItemWithID(15).allowedNumber = 0;//train
+                structuresData.GetItemWithID(16).allowedNumber = 0;//boot
+                structuresData.GetItemWithID(17).allowedNumber = 0;//rollerpin
+                structuresData.GetItemWithID(18).allowedNumber = 0;//fan
+                structuresData.GetItemWithID(19).allowedNumber = 0;//heli
+                structuresData.GetItemWithID(20).allowedNumber = 0;//toaster
+                structuresData.GetItemWithID(21).allowedNumber = 0;//catapult
+                structuresData.GetItemWithID(22).allowedNumber = 0;//teethbox
                 PlaceStrucuterAtMap(23, new Vector3(0.0f, 0.02f, -4.0f), new Vector3Int(0, 0, -8), new Quaternion(), new Quaternion());
                 PlaceStrucuterAtMap(24, new Vector3(0.0f, 0.02f, 0f), new Vector3Int(0, 0, 0), new Quaternion(), new Quaternion());
                 PlaceStrucuterAtMap(25, new Vector3(2.5f, 0.02f, -3.8f), new Vector3Int(5, 0, -7), new Quaternion(), new Quaternion());
@@ -69,15 +92,205 @@ public class PlacementManager : MonoBehaviour
                 PlaceStrucuterAtMap(34, new Vector3(-3.0f, 0.02f, -4.0f), new Vector3Int(-6, 0, -8), new Quaternion(), new Quaternion());
                 break;
             case "Level2":
+                structuresData.GetItemWithID(0).allowedNumber = 1;//canon
+                structuresData.GetItemWithID(1).allowedNumber = 2;//teapot
+                structuresData.GetItemWithID(2).allowedNumber = 0;//box glove
+                structuresData.GetItemWithID(3).allowedNumber = 2;//turtle
+                structuresData.GetItemWithID(4).allowedNumber = 2;//water
+                structuresData.GetItemWithID(5).allowedNumber = 0;//ship
+                structuresData.GetItemWithID(6).allowedNumber = 2;//slingshot
+                structuresData.GetItemWithID(7).allowedNumber = 1;//anvil
+                structuresData.GetItemWithID(8).allowedNumber = 1;//tv
+                structuresData.GetItemWithID(9).allowedNumber = 0;//roller skate park
+                structuresData.GetItemWithID(10).allowedNumber = 1;//magnet
+                structuresData.GetItemWithID(11).allowedNumber = 0;//table pool
+                structuresData.GetItemWithID(12).allowedNumber = 2;//roller skate
+                structuresData.GetItemWithID(13).allowedNumber = 1;//fire exti
+                structuresData.GetItemWithID(14).allowedNumber = 1;//hampter
+                structuresData.GetItemWithID(15).allowedNumber = 0;//train
+                structuresData.GetItemWithID(16).allowedNumber = 0;//boot
+                structuresData.GetItemWithID(17).allowedNumber = 1;//rollerpin
+                structuresData.GetItemWithID(18).allowedNumber = 1;//fan
+                structuresData.GetItemWithID(19).allowedNumber = 1;//heli
+                structuresData.GetItemWithID(20).allowedNumber = 1;//toaster
+                structuresData.GetItemWithID(21).allowedNumber = 0;//catapult
+                structuresData.GetItemWithID(22).allowedNumber = 0;//teethbox
                 PlaceStrucuterAtMap(34, new Vector3(0.0f, 0.02f, 0f), new Vector3Int(0, 0, 0), new Quaternion(), new Quaternion());
                 PlaceStrucuterAtMap(29, new Vector3(0.0f, 0.02f, -3.8f), new Vector3Int(2, 0, -8), new Quaternion(0.00000f, 1.00000f, 0.00000f, 0.00000f), new Quaternion());
+                //PlaceStrucuterAtMap(30, new Vector3(-4.0f, 0.02f, -4f), new Vector3Int(-8, 0, -8), new Quaternion(), new Quaternion());
                 PlaceStrucuterAtMap(30, new Vector3(-3.0f, 0.02f, -3f), new Vector3Int(-6, 0, -6), new Quaternion(), new Quaternion());
+
+                PlaceStrucuterAtMap(30, new Vector3(-3.0f, 0.02f, 3f), new Vector3Int(-6, 0, 6), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(33, new Vector3(-1f, 0.02f, 3f), new Vector3Int(-2, 0, 6), new Quaternion(), new Quaternion());
+                //PlaceStrucuterAtMap(31, new Vector3(2.0f, 0.02f, 1f), new Vector3Int(4, 0, 2), new Quaternion(), new Quaternion());
+
+                PlaceStrucuterAtMap(31, new Vector3(-4f, 0.02f, -3f), new Vector3Int(-8, 0, -6), new Quaternion(), new Quaternion());
+
+                PlaceStrucuterAtMap(31, new Vector3(-1.5f, 0.02f, -1.5f), new Vector3Int(-3, 0, -3), new Quaternion(), new Quaternion());
+
                 PlaceStrucuterAtMap(30, new Vector3(3.0f, 0.02f, 3f), new Vector3Int(6, 0, 6), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
                 PlaceStrucuterAtMap(33, new Vector3(-3.0f, 0.02f, 1.5f), new Vector3Int(-6, 0, 3), new Quaternion(), new Quaternion());
                 PlaceStrucuterAtMap(31, new Vector3(4f, 0.02f, 0f), new Vector3Int(8, 0, 0), new Quaternion(), new Quaternion());
+                
                 PlaceStrucuterAtMap(31, new Vector3(-1.0f, 0.02f, -5f), new Vector3Int(-2, 0, -10), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                
                 PlaceStrucuterAtMap(32, new Vector3(2.0f, 0.02f, -2f), new Vector3Int(4, 0, -4), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(31, new Vector3(2.0f, 0.02f, 1f), new Vector3Int(4, 0, 2), new Quaternion(), new Quaternion());
+
+                
+                //PlaceStrucuterAtMap(31, new Vector3(2.0f, 0.02f, 1f), new Vector3Int(4, 0, 2), new Quaternion(), new Quaternion());
+
                 PlaceStrucuterAtMap(32, new Vector3(-5f, 0.02f, -3f), new Vector3Int(-10, 0, -6), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                break;
+            case "Level3":
+
+                structuresData.GetItemWithID(0).allowedNumber = 10;
+                structuresData.GetItemWithID(1).allowedNumber = 10;
+                structuresData.GetItemWithID(2).allowedNumber = 10;
+                structuresData.GetItemWithID(3).allowedNumber = 10;
+                structuresData.GetItemWithID(4).allowedNumber = 10;
+                structuresData.GetItemWithID(5).allowedNumber = 10;
+                structuresData.GetItemWithID(6).allowedNumber = 10;
+                structuresData.GetItemWithID(7).allowedNumber = 10;
+                structuresData.GetItemWithID(8).allowedNumber = 10;
+                structuresData.GetItemWithID(9).allowedNumber = 10;
+                structuresData.GetItemWithID(10).allowedNumber = 10;
+                structuresData.GetItemWithID(11).allowedNumber = 10;
+                structuresData.GetItemWithID(12).allowedNumber = 10;
+                structuresData.GetItemWithID(13).allowedNumber = 10;
+                structuresData.GetItemWithID(14).allowedNumber = 10;
+                structuresData.GetItemWithID(15).allowedNumber = 10;
+                structuresData.GetItemWithID(16).allowedNumber = 10;
+                structuresData.GetItemWithID(17).allowedNumber = 10;
+                structuresData.GetItemWithID(18).allowedNumber = 10;
+                structuresData.GetItemWithID(19).allowedNumber = 10;
+                structuresData.GetItemWithID(20).allowedNumber = 10;
+                structuresData.GetItemWithID(21).allowedNumber = 10;
+                structuresData.GetItemWithID(22).allowedNumber = 10;
+
+                PlaceStrucuterAtMap(34, new Vector3(3f, 0.02f, 2f), new Vector3Int(6, 0, 4), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(34, new Vector3(-0.5f, 0.02f, -3.5f), new Vector3Int(-1, 0, -7), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(24, new Vector3(-2.5f, 0.02f, 1.5f), new Vector3Int(-5, 0, 3), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(24, new Vector3(2f, 0.02f, -2f), new Vector3Int(4, 0, -4), new Quaternion(), new Quaternion());
+                
+                PlaceStrucuterAtMap(25, new Vector3(-2.5f, 0.02f, 3.7f), new Vector3Int(-5, 0, 8), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(25, new Vector3(-1.5f, 0.02f, 0.3f), new Vector3Int(-3, 0, 1), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(33, new Vector3(-5f, 0.02f, 1f), new Vector3Int(-10, 0, 2), new(0.00000f, -0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                
+                PlaceStrucuterAtMap(23, new Vector3(-4.5f, 0.02f, 3.5f), new Vector3Int(-9, 0, 7), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(28, new Vector3(-3f, 0.02f, -0.5f), new Vector3Int(-6, 0, -1), new Quaternion(), new Quaternion());
+
+                PlaceStrucuterAtMap(23, new Vector3(-0.5f, 0.02f, 0f), new Vector3Int(-1, 0, 0), new Quaternion(), new Quaternion());
+
+                PlaceStrucuterAtMap(24, new Vector3(-4.5f, 0.02f, -3.5f), new Vector3Int(-9, 0,-7), new Quaternion(), new Quaternion());
+
+                PlaceStrucuterAtMap(26, new Vector3(0.5f, 0.02f, -1.2f), new Vector3Int(1, 0, -2), new Quaternion(), new Quaternion());
+
+                break;
+            case "Level4":
+                structuresData.GetItemWithID(0).allowedNumber = 10;
+                structuresData.GetItemWithID(1).allowedNumber = 10;
+                structuresData.GetItemWithID(2).allowedNumber = 10;
+                structuresData.GetItemWithID(3).allowedNumber = 10;
+                structuresData.GetItemWithID(4).allowedNumber = 10;
+                structuresData.GetItemWithID(5).allowedNumber = 10;
+                structuresData.GetItemWithID(6).allowedNumber = 10;
+                structuresData.GetItemWithID(7).allowedNumber = 10;
+                structuresData.GetItemWithID(8).allowedNumber = 10;
+                structuresData.GetItemWithID(9).allowedNumber = 10;
+                structuresData.GetItemWithID(10).allowedNumber = 10;
+                structuresData.GetItemWithID(11).allowedNumber = 10;
+                structuresData.GetItemWithID(12).allowedNumber = 10;
+                structuresData.GetItemWithID(13).allowedNumber = 10;
+                structuresData.GetItemWithID(14).allowedNumber = 10;
+                structuresData.GetItemWithID(15).allowedNumber = 10;
+                structuresData.GetItemWithID(16).allowedNumber = 10;
+                structuresData.GetItemWithID(17).allowedNumber = 10;
+                structuresData.GetItemWithID(18).allowedNumber = 10;
+                structuresData.GetItemWithID(19).allowedNumber = 10;
+                structuresData.GetItemWithID(20).allowedNumber = 10;
+                structuresData.GetItemWithID(21).allowedNumber = 10;
+                structuresData.GetItemWithID(22).allowedNumber = 10;
+                PlaceStrucuterAtMap(26, new Vector3(3.5f, 0.02f, 2.8f), new Vector3Int(7, 0, 6), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(33, new Vector3(4.5f, 0.02f, 2f), new Vector3Int(9, 0, 4), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(33, new Vector3(2.5f, 0.02f, 0.5f), new Vector3Int(5, 0, 1), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(2.0f, 0.02f, 1.5f), new Vector3Int(4, 0, 3), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(33, new Vector3(2f, 0.02f, 4f), new Vector3Int(4, 0, 8), new Quaternion(), new Quaternion());//
+                PlaceStrucuterAtMap(30, new Vector3(2.5f, 0.02f, -2.5f), new Vector3Int(5, 0,-5), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(27, new Vector3(1.0f, 0.02f, 1f), new Vector3Int(2, 0, 2), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(0f, 0.02f, 2.5f), new Vector3Int(0, 0, 5), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(24, new Vector3(0f, 0.02f, -1.5f), new Vector3Int(0, 0, -3), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(31, new Vector3(1f, 0.02f,-4f), new Vector3Int(2, 0, -8), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(27, new Vector3(3f, 0.02f, -3.5f), new Vector3Int(6, 0, -7), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(32, new Vector3(1.5f, 0.02f, -5f), new Vector3Int(3, 0, -10), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(32, new Vector3(-1.5f, 0.02f, 4f), new Vector3Int(-3, 0, 8), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(-1.5f, 0.02f, 0.5f), new Vector3Int(-3, 0, 1), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(27, new Vector3(-1.0f, 0.02f, -3f), new Vector3Int(-2, 0, -6), new Quaternion(), new Quaternion());//
+                PlaceStrucuterAtMap(30, new Vector3(-3.0f, 0.02f, 2.5f), new Vector3Int(-6, 0, 5), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(-3.5f, 0.02f, -2f), new Vector3Int(-7, 0, -4), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());///>>
+                PlaceStrucuterAtMap(30, new Vector3(-4.5f, 0.02f, 2f), new Vector3Int(-9, 0, 4), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(-4.5f, 0.02f, 0f), new Vector3Int(-9, 0, 0), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(-4f, 0.02f, -5f), new Vector3Int(-8, 0, -10), new Quaternion(), new Quaternion());//
+                PlaceStrucuterAtMap(30, new Vector3(-1f, 0.02f, -4.5f), new Vector3Int(-2, 0, -9), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(25, new Vector3(-5f, 0.02f, -2.2f), new Vector3Int(-10, 0, -4), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(27, new Vector3(2.5f, 0.02f, -0.5f), new Vector3Int(5, 0, -1), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(25, new Vector3(4f, 0.02f, -1.2f), new Vector3Int(8, 0, -2), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(32, new Vector3(2.5f, 0.02f, -5f), new Vector3Int(5, 0, -10), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(33, new Vector3(-1.5f, 0.02f, -2f), new Vector3Int(-3, 0, -4), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(31, new Vector3(-2f, 0.02f, -0.5f), new Vector3Int(-4, 0, -1), new Quaternion(), new Quaternion());
+                break;
+            case "Level5":
+                structuresData.GetItemWithID(0).allowedNumber = 10;
+                structuresData.GetItemWithID(1).allowedNumber = 10;
+                structuresData.GetItemWithID(2).allowedNumber = 10;
+                structuresData.GetItemWithID(3).allowedNumber = 10;
+                structuresData.GetItemWithID(4).allowedNumber = 10;
+                structuresData.GetItemWithID(5).allowedNumber = 10;
+                structuresData.GetItemWithID(6).allowedNumber = 10;
+                structuresData.GetItemWithID(7).allowedNumber = 10;
+                structuresData.GetItemWithID(8).allowedNumber = 10;
+                structuresData.GetItemWithID(9).allowedNumber = 10;
+                structuresData.GetItemWithID(10).allowedNumber = 10;
+                structuresData.GetItemWithID(11).allowedNumber = 10;
+                structuresData.GetItemWithID(12).allowedNumber = 10;
+                structuresData.GetItemWithID(13).allowedNumber = 10;
+                structuresData.GetItemWithID(14).allowedNumber = 10;
+                structuresData.GetItemWithID(15).allowedNumber = 10;
+                structuresData.GetItemWithID(16).allowedNumber = 10;
+                structuresData.GetItemWithID(17).allowedNumber = 10;
+                structuresData.GetItemWithID(18).allowedNumber = 10;
+                structuresData.GetItemWithID(19).allowedNumber = 10;
+                structuresData.GetItemWithID(20).allowedNumber = 10;
+                structuresData.GetItemWithID(21).allowedNumber = 10;
+                structuresData.GetItemWithID(22).allowedNumber = 10;
+                PlaceStrucuterAtMap(26, new Vector3(4f, 0.02f, 3.8f), new Vector3Int(8, 0, 8), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(25, new Vector3(0f, 0.02f, 2.8f), new Vector3Int(0, 0, 6), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(23, new Vector3(-1f, 0.02f, 2f), new Vector3Int(-2, 0, 4), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(23, new Vector3(-1f, 0.02f, -1f), new Vector3Int(-2, 0, -2), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(23, new Vector3(-0.5f, 0.02f, -4.5f), new Vector3Int(-1, 0, -9), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(23, new Vector3(-5f, 0.02f, 0f), new Vector3Int(-10, 0, 0), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(28, new Vector3(2.5f, 0.02f, 4.5f), new Vector3Int(5, 0, 9), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(28, new Vector3(1f, 0.02f, 3.5f), new Vector3Int(2, 0, 7), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(28, new Vector3(1.5f, 0.02f, 1.5f), new Vector3Int(3, 0, 3), new Quaternion(), new Quaternion());//
+                PlaceStrucuterAtMap(28, new Vector3(4f, 0.02f, 1.5f), new Vector3Int(8, 0, 3), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(3f, 0.02f, 2.5f), new Vector3Int(6, 0, 5), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(34, new Vector3(-2f, 0.02f, 4f), new Vector3Int(-4, 0, 8), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(34, new Vector3(-1f, 0.02f, 4f), new Vector3Int(-2, 0, 8), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(28, new Vector3(-4f, 0.02f, 2.5f), new Vector3Int(-8, 0, 5), new Quaternion(), new Quaternion());//
+                PlaceStrucuterAtMap(25, new Vector3(-3.5f, 0.02f, 1.2f), new Vector3Int(-7, 0, 3), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(25, new Vector3(-0.5f, 0.02f, 0.8f), new Vector3Int(-1, 0, 2), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(3f, 0.02f, -3f), new Vector3Int(6, 0, -6), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(2f, 0.02f, -5f), new Vector3Int(4, 0, -10), new Quaternion(0.00000f, 0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(30, new Vector3(-2.5f, 0.02f, 0f), new Vector3Int(-5, 0, 0), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(34, new Vector3(-3.5f, 0.02f, -3.5f), new Vector3Int(-7, 0, -7), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(26, new Vector3(4f, 0.02f, -1.3f), new Vector3Int(8, 0, -2), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(28, new Vector3(3.5f, 0.02f, 0f), new Vector3Int(7, 0, 0), new Quaternion(0.00000f, -0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(24, new Vector3(1.5f, 0.02f, -1f), new Vector3Int(3, 0, -2), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(25, new Vector3(1.5f, 0.02f, -3.3f), new Vector3Int(3, 0, -6), new Quaternion(0.00000f, -0.70711f, 0.00000f, 0.70711f), new Quaternion());
+                PlaceStrucuterAtMap(25, new Vector3(1.5f, 0.02f, -2.3f), new Vector3Int(3, 0, -4), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(28, new Vector3(0.5f, 0.02f, -3.5f), new Vector3Int(1, 0, -7), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(28, new Vector3(-1.5f, 0.02f, -2f), new Vector3Int(-3, 0, -4), new Quaternion(), new Quaternion());
+                PlaceStrucuterAtMap(26, new Vector3(-1.5f, 0.02f, -4.7f), new Vector3Int(-3, 0, -9), new Quaternion(), new Quaternion());
                 break;
         }
         
@@ -169,8 +382,9 @@ public class PlacementManager : MonoBehaviour
             {
                 if (itemData.objectPlacementType == PlacementType.Floor || itemData.objectPlacementType == PlacementType.Wall)
                     OnPlaceConstructionObject?.Invoke();
-                else
+                else 
                     OnPlaceFurnitureObject?.Invoke();
+                    
             }
 
         }
@@ -357,24 +571,45 @@ public class PlacementManager : MonoBehaviour
                 int index = placementData.GetIndexForCellObject(selectionResult.selectedGridPositions[i]);
                 if (index > -1)
                 {
-                    
+
                     //Vector3 selectedPosition = input.GetSelectedMapPosition();
                     previousPosition = gridManager.GetCellPosition(selectionResult.selectedPositions[i], PlacementType.FreePlacedObject);
 
                     //Debug.Log("test " + structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(previousPosition.Value)).ID);
                     //
-                        if (structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(previousPosition.Value)).ID > 22)
-                        {
-                            return;
-                        }
-                   
-                    
+                    if (structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(previousPosition.Value)).ID > 22)
+                    {
+                        return;
+                    }
+
+                    if (structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(selectionResult.selectedGridPositions[i])).ID !=
+                        structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(previousPosition.Value)).ID)
+                    {
+                        structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(previousPosition.Value)).allowedNumber += 1;
+                    }
+                    else 
+                    {
+                        structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(selectionResult.selectedGridPositions[i])).allowedNumber += 1;
+                    }
+
+
+
+
+
                         placementData.RemoveCellObject(selectionResult.selectedGridPositions[i]);
                     structurePlacer.RemoveObjectAt(index);
-                }
-            }
 
-        }
+                    //if (structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(previousPosition.Value)).ID
+                    //    == index)
+                    //{
+                    //    structuresData.GetItemWithID(gridData.ObjectPlacementData.GetStructureIDForCellObject(previousPosition.Value)).allowedNumber +=1;
+                    //}
+                    gridManager.GetCellPosition(selectionResult.selectedPositions[i], PlacementType.FreePlacedObject);
+
+                }
+                }
+
+            }
         buildingState.RefreshSelection();
         OnToggleUndo?.Invoke(true);
     }

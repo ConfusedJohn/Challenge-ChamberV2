@@ -31,15 +31,16 @@ public class StructureRemoveCommand : ICommand
         GenerateUndoData();
         //If there is nothing to remove (remove selection selects empty spaces)
         //we don't want to perform this command and add it to a stack of commands to undo
+        
         return selectionResultToRestore.selectedGridPositions.Count > 0;
     }
 
     public void Execute()
     {
-        if(selectionResultToRestore.selectedGridPositions == null)
-            GenerateUndoData();
-
+        if (selectionResultToRestore.selectedGridPositions == null) 
+        GenerateUndoData();
         placementManager.RemoveStructureAt(selectionResult, placementData);
+        //itemData.allowedNumber += 1;
 
     }
 
@@ -138,6 +139,10 @@ public class StructureRemoveCommand : ICommand
 
     public void Undo()
     {
-        placementManager.PlaceStructureAt(selectionResultToRestore, placementData, itemData);
+        if (itemData != null && itemData.allowedNumber > 0)
+        {
+            itemData.allowedNumber -= 1;
+            placementManager.PlaceStructureAt(selectionResultToRestore, placementData, itemData);
+        }
     }
 }

@@ -1,6 +1,7 @@
 using CommandSystem;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
@@ -27,17 +28,24 @@ public class StructurePlacementCommand : ICommand
 
     public bool CanExecute()
     {
-        return selectionResult.placementValidity;
+        if (itemData != null && itemData.allowedNumber > 0)
+        {
+            return selectionResult.placementValidity;
+        }
+        else return false;
+        
     }
 
     public void Execute()
     {
+        itemData.allowedNumber -= 1;
         placementManager.PlaceStructureAt(selectionResult,placementData, this.itemData);
 
     }
 
     public void Undo()
     {
+        itemData.allowedNumber += 1;
         placementManager.RemoveStructureAt(selectionResult, placementData);
     }
 }

@@ -45,8 +45,8 @@ public class InputManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
             OnCancle?.Invoke();
-        if(Input.GetKeyDown(KeyCode.R))
-            OnUndo?.Invoke();
+        //if(Input.GetKeyDown(KeyCode.R))
+        //    OnUndo?.Invoke();
 
         if (Input.GetMouseButtonDown(0))
             OnMousePressed?.Invoke();

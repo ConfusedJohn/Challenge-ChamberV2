@@ -124,6 +124,10 @@ public class GameManager : MonoBehaviour
                 checkIfActive();               
             }
         }
+        else 
+        {
+        ResetGame();
+        }
         
     }
     private IEnumerator CheckIfWin()
@@ -176,7 +180,7 @@ public class GameManager : MonoBehaviour
         {
             gameStarted = false;
             endImage.sprite = Resources.Load<Sprite>("LossDanger");
-            endCanvas.SetActive(true);
+            endCanvas.SetActive(true);     
         }
     }
 }

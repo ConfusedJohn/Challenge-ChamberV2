@@ -51,4 +51,5 @@ public class ItemData
     [Tooltip("If empty will be set to prefab object")]
     public GameObject previewObject;
     public Boolean isMapObject;
+    public int allowedNumber;
 }
