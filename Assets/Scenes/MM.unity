@@ -1046,7 +1046,9 @@ MonoBehaviour:
 
 
     ps. Hangers can only be activated by cutters and cutters can only activate
-    hangers'
+    hangers
+
+    and only helicopter can fly over objects which are not tall'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2982e463faf26874cb3ff62b56494a64, type: 2}
   m_sharedMaterial: {fileID: 6511294955642174105, guid: 2982e463faf26874cb3ff62b56494a64,
@@ -13736,7 +13738,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754167386}
-  m_LocalRotation: {x: 0.38268346, y: 1e-45, z: -1e-45, w: 0.92387956}
+  m_LocalRotation: {x: 0.38268346, y: -3e-45, z: 1e-45, w: 0.92387956}
   m_LocalPosition: {x: -0.36, y: 15, z: -14.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15949,7 +15951,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139994300}
-  m_LocalRotation: {x: 0.38268346, y: 1e-45, z: -1e-45, w: 0.92387956}
+  m_LocalRotation: {x: 0.38268346, y: -3e-45, z: 1e-45, w: 0.92387956}
   m_LocalPosition: {x: -0.36, y: 15, z: -14.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

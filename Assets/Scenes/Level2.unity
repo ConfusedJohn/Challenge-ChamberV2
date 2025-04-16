@@ -24036,7 +24036,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1928953080}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -30137,7 +30137,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1928953080}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -31231,7 +31231,9 @@ MonoBehaviour:
 
 
     ps. Hangers can only be activated by cutters and cutters can only activate
-    hangers'
+    hangers
+
+    and only helicopter can fly over objects which are not tall'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2982e463faf26874cb3ff62b56494a64, type: 2}
   m_sharedMaterial: {fileID: 6511294955642174105, guid: 2982e463faf26874cb3ff62b56494a64,
